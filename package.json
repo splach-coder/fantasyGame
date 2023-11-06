@@ -1,0 +1,27 @@
+{
+  "name": "fantasygame",
+  "version": "1.0.0",
+  "description": "a new fantasy premier league game with new rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/splach-coder/fantasyGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/splach-coder/fantasyGame/issues"
+  },
+  "homepage": "https://github.com/splach-coder/fantasyGame#readme",
+  "dependencies": {
+    "-": "0.0.1",
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}

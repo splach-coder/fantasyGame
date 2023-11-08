@@ -19,6 +19,7 @@
   "homepage": "https://github.com/splach-coder/fantasyGame#readme",
   "dependencies": {
     "-": "0.0.1",
+    "axios": "^1.6.0",
     "jquery": "^3.7.1"
   },
   "devDependencies": {

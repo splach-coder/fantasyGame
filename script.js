@@ -78,7 +78,7 @@
         const teams = devideTeams(data);
         const playersWithTheirTeams = playersGetTeams(players, teams);
         const htmlTags = fillUI(playersWithTheirTeams);
-        
+
         $("#first-main").fadeOut();
         $("#second-main").prepend(htmlTags);
         $("#second-main").fadeIn();
@@ -152,7 +152,7 @@
       <div
 class="flex flex-col md:flex-row gap-3 border border-gray-500 rounded-sm">
 <img
-  src="../imgs/default-user.png"
+  src="imgs/default-user.png"
   class="bg-gray-100 cursor-pointer object-cover"
   alt="default player image" />
 <div class="px-3 md:py-3 md:px-0">
